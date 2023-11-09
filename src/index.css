@@ -1,0 +1,78 @@
+body {
+  background-color: wheat;
+  padding: 20px;
+}
+
+main {
+  background-color: black;
+  height: 450px;
+  border-radius: 5px;
+  width: 650px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+.container {
+  background-color: beige;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.die-face {
+  box-shadow: 0px 0px 3px -2px gray;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.roll-button {
+  margin-top: 50px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(15, 68, 181);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "karla", sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+.roll-button:hover {
+  background-color: blue;
+}
+
+.roll-button:active {
+  transform: translateY(2px);
+}
+
+.instructions {
+  font-family: "karla", sans-seri;
+  font-weight: 500;
+}
+
+.instruction-1 {
+  margin-left: 100px;
+}
